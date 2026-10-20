@@ -122,8 +122,8 @@ export default function Home() {
         <section className="hero">
           <div className="hero-photo" aria-hidden="true" />
           <div className="hero-text">
-            <p className="hero-for">for Anagha</p>
             <h1>Happy Birthday!</h1>
+            <p className="hero-for">Anagha</p>
             <p className="hero-sub">Scroll down. I wrote you something.</p>
             <span className="hint" aria-hidden="true">↓</span>
           </div>
