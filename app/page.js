@@ -7,7 +7,9 @@ const PHOTOS = [
   { src: "/photos/g2.jpg", cap: "Gravity is optional", tilt: -2 },
   { src: "/photos/g4.jpg", cap: "The big outing", tilt: 3 },
   { src: "/photos/g5.jpg", cap: "Blue-hour glow", tilt: -3 },
-  { src: "/photos/g6.jpg", cap: "Mid-sentence, as always", tilt: 2 },
+  { src: "/photos/g6.jpg", cap: "One puff in , One soul out", tilt: 2 },
+  { src: "/photos/g7.jpeg", cap: "Campus-side trekking", tilt: -2 },
+  { src: "/photos/g8.jpeg", cap: "hehehe", tilt: 2 },
 ];
 
 const MESSAGE = [
@@ -118,6 +120,7 @@ export default function Home() {
 
       <main>
         <section className="hero">
+          <div className="hero-photo" aria-hidden="true" />
           <div className="hero-text">
             <p className="hero-for">for Anagha</p>
             <h1>Happy Birthday!</h1>
@@ -126,7 +129,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="wrap">
+        <section className="wrap message-wrap">
           <Reveal className="glass">
             <h2>YO TWINGA,</h2>
             {MESSAGE.map((m, i) => (
